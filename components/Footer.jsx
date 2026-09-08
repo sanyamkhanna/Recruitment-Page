@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Footer(){return <footer className="site-footer"><div><div className="footer-brand"><span className="brand-mark">R</span> RECRUIT<span>+</span></div><p>Where curiosity meets opportunity.</p></div><div className="footer-links"><Link href="/">Home</Link><Link href="/departments">Departments</Link></div><small>© {new Date().getFullYear()} Recruitment Portal · Designed for what&apos;s next.</small></footer>}
